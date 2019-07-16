@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy API hw_06</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity=
+    "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="jumbotron" id="header">
+        <div class="container">
+             <h1>Cars Craze</h1>
+                   
+            <h3>Click on the buttons to reveal your favorite car<br>Don't see your car? Simply search and add!<br>Click to pause and play</h3>
+         </div>
+    </div>
+
+     <!-- Buttons View --> 
+    <div id="button-View"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+        <!-- Gifs View -->
+            <div class="gifs-View"></div>
+        </div>
+       
+        <!-- User Value Form -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">   
+            <form id="gif-form" role="form">
+                <div class="form-group">
+                    <label for="car-input">Add your car</label>
+                    <input type="text" id="car-input">
+                </div>
+
+                <input id="add-Gif" type="submit" value="Add your car" class="btn btn-primary">
+            </form>
+    </div>
+            
+
+   
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+         <script src="assets/main.js"> </script>
+
+</body>
+</html>
